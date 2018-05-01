@@ -1,5 +1,13 @@
 body{
     font-family: 'Knewave', cursive;
+    height: 100%
+}
+#gif{
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
 }
 .splash{
     font-family: 'Knewave', cursive;
@@ -11,7 +19,7 @@ body{
 -webkit-animation-delay: 2s;
 -webkit-animation-iteration-count: 1;
 /* Standard syntax */
-animation-name: example;
+animation-name: fallText;
 animation-duration: 5s;
 animation-timing-function: linear;
 animation-delay: 2s;
