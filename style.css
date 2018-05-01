@@ -1,13 +1,27 @@
 body{
     font-family: 'Knewave', cursive;
-    height: 100%
+    height: 100vh;
+    background-image: url('https://media.giphy.com/media/l378aUIDVRapQXXfG/giphy.gif');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+background-position: bottom;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+min-height: 100%;
 }
-#gif{
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-size: cover;
+#splashscreen{
+    height: 620px;
+    background-image: url('https://media.giphy.com/media/l0IxZG9R9t4V5Y2li/giphy.gif');
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: bottom;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+min-height: 100%;
 }
 .splash{
     font-family: 'Knewave', cursive;
@@ -16,13 +30,13 @@ body{
 -webkit-animation-name: fallText;
 -webkit-animation-duration: 5s;
 -webkit-animation-timing-function:ease-in;
--webkit-animation-delay: 2s;
+-webkit-animation-delay: 1s;
 -webkit-animation-iteration-count: 1;
 /* Standard syntax */
 animation-name: fallText;
 animation-duration: 5s;
 animation-timing-function: linear;
-animation-delay: 2s;
+animation-delay: 1s;
 animation-iteration-count: 1;
 }
 
