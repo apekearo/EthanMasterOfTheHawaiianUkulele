@@ -1,0 +1,77 @@
+body{
+    font-family: 'Knewave', cursive;
+}
+.splash{
+    font-family: 'Knewave', cursive;
+    position: relative;
+/* Safari 4.0 - 8.0 */
+-webkit-animation-name: fallText;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-function:ease-in;
+-webkit-animation-delay: 2s;
+-webkit-animation-iteration-count: 1;
+/* Standard syntax */
+animation-name: example;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-iteration-count: 1;
+}
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes fallText {
+        0%   {background-color: transparent; top:0px;}
+        25%  {background-color: transparent; top:150px;}
+        50%  {background-color:blue; top:280px;}
+        75%  {background-color:green; top:390px;}
+        100% {background-color:red; top:50%;}
+    }
+    
+    /* Standard syntax */
+    @keyframes fallText {
+        0%   {background-color: transparent; top:0px;}
+        25%  {background-color: transparent; top:150px;}
+        50%  {background-color:blue; top:280px;}
+        75%  {background-color:green; top:390px;}
+        100% {background-color:red; top:50%;}
+    }
+
+
+    #box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        /* Safari 4.0 - 8.0 */
+        -webkit-animation-name: example;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-iteration-count: 3;
+        -webkit-animation-direction: alternate;
+        /* Standard syntax */
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-iteration-count: 3;
+        animation-direction: alternate;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
