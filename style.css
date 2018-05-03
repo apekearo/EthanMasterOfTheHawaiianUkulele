@@ -1,6 +1,7 @@
 body{
     font-family: 'Knewave', cursive;
     height: 100vh;
+    background-color: moccasin; 
     background-image: url('https://media.giphy.com/media/l0ExhTwuR8jBcFXqM/giphy.gif');
     /* background-image: url('https://media.giphy.com/media/l378aUIDVRapQXXfG/giphy.gif'); */
     background-repeat: no-repeat;
@@ -23,6 +24,10 @@ h1{
     opacity: 1;
     font-weight: bold;
 }
+.filler{
+    background-color: moccasin;
+    opacity: 0.6;
+}
 #splashscreen{
     height: 620px;
     background-image: url('https://media.giphy.com/media/l0IxZG9R9t4V5Y2li/giphy.gif');
@@ -34,6 +39,21 @@ background-position: bottom;
 background-size: cover;
 -o-background-size: cover;
 min-height: 100%;
+margin-top:-20px;
+}
+button {
+    margin-left:22%;
+    font-size: x-large;
+    width: 50%;
+    background-color: lightskyblue;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+button1:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 .splash{
     font-family: 'Knewave', cursive;
