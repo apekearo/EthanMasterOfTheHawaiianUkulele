@@ -1,7 +1,7 @@
 body{
     font-family: 'Knewave', cursive;
     height: 100vh;
-    background-color: moccasin; 
+    background-color: hsl(123, 40%, 51%); 
     background-image: url('https://media.giphy.com/media/l0ExhTwuR8jBcFXqM/giphy.gif');
     /* background-image: url('https://media.giphy.com/media/l378aUIDVRapQXXfG/giphy.gif'); */
     background-repeat: no-repeat;
