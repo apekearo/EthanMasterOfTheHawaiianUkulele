@@ -5,7 +5,7 @@ body{
     background-image: url('https://media.giphy.com/media/l0ExhTwuR8jBcFXqM/giphy.gif');
     /* background-image: url('https://media.giphy.com/media/l378aUIDVRapQXXfG/giphy.gif'); */
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 background-position: top;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -40,6 +40,7 @@ background-size: cover;
 -o-background-size: cover;
 min-height: 100%;
 margin-top:-20px;
+padding: 15%;
 }
 button {
     margin-left:22%;
@@ -74,20 +75,20 @@ animation-iteration-count: 1;
 
     /* Safari 4.0 - 8.0 */
     @-webkit-keyframes fallText {
-        0%   {background-color: transparent; top:0px;}
-        25%  {background-color: transparent; top:150px;}
+        0%   {background-color: yellowgreen; top:0px;}
+        25%  {background-color: yellow; top:150px;}
         50%  {background-color:blue; top:280px;}
-        75%  {background-color:green; top:390px;}
-        100% {background-color:red; top:2%;}
+        75%  {background-color:green; top:20px;}
+        100% {background-color:red; top:3%;}
     }
     
     /* Standard syntax */
     @keyframes fallText {
-        0%   {background-color: transparent; top:0px;}
-        25%  {background-color: transparent; top:150px;}
+        0%   {background-color: yellowgreen; top:0px;}
+        25%  {background-color: yellow; top:150px;}
         50%  {background-color:blue; top:280px;}
-        75%  {background-color:green; top:390px;}
-        100% {background-color:red; top:2%;}
+        75%  {background-color:green; top:20px;}
+        100% {background-color:red; top:3%;}
     }
 
 
@@ -129,3 +130,9 @@ animation-iteration-count: 1;
         75%  {background-color:green; left:0px; top:200px;}
         100% {background-color:red; left:0px; top:0px;}
     }
+    #zine1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            }
