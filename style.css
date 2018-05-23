@@ -17,8 +17,8 @@ opacity: 0.8;
 .header{
   margin: 30px;
   background-color: #ffffff;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  /* opacity: 0.6; */
+  /* filter: alpha(opacity=60); */
 }
 h1{
     opacity: 1;
@@ -134,14 +134,14 @@ animation-iteration-count: 1;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 40%;
+            width: 60%;
             }
 
             #front {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 40%;
+                width: 60%;
                 height: 25%;
                 }
 
