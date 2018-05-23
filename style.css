@@ -149,7 +149,7 @@ animation-iteration-count: 1;
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 80px;
     text-align: center;
     text-decoration: none;
 }
@@ -165,3 +165,12 @@ animation-iteration-count: 1;
 .fa-facebook-f {
     background: #3B5998;
     color: white;}
+
+    .fa-instagram {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-twitter {
+        background: #3B5998;
+        color: white;
+      }
